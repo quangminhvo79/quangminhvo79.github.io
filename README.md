@@ -1,1 +1,1 @@
-# quangminhvo79.github.io
+# Minh Vo - Ruby on Rails Developer at Jobready
