@@ -4,9 +4,16 @@ layout: default
 <body>
   <iframe src="https://html5.gamedistribution.com/070d0680bbe24d5aafa44d8b9b629c2d/" width="900" height="510" scrolling="none" frameborder="0"></iframe>
   <script type="text/javascript">
+    document.title = "Minh Vo - Ruby on Rails Developer"
     document.getElementsByClassName('project-name')[0].innerText = "Minh Vo - Ruby on Rails Developer at JobReady Vietnam";
     setTimeout(function(){
       document.getElementsByClassName('site-footer')[0].innerText = "Contact: minhv@jobready.com.au";
+      document.getElementsByClassName('site-footer')[0].style.display = "block"
     },500)
   </script>
+  <style type="text/css">
+    .site-footer{
+      display: none;
+    }
+  </style>
 </body>
